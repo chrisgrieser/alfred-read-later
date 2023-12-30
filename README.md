@@ -1,8 +1,8 @@
-# {{workflow-name}}
-![Download count](https://img.shields.io/github/downloads/chrisgrieser/{{workflow-id}}/total?label=Total%20Downloads&style=plastic)
-![version number](https://img.shields.io/github/v/release/chrisgrieser/{{workflow-id}}?label=Latest%20Release&style=plastic)
+# alfred read later
+![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-read-later/total?label=Total%20Downloads&style=plastic)
+![version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-read-later?label=Latest%20Release&style=plastic)
 
-{{workflow-description}}
+Simple standalone read-later-app for Alfred. Saves the items in plaintext on your device.
 
 - [ ] Showcase image to be inserted here.
 
