@@ -5,7 +5,7 @@
 Simple standalone read-later-app for Alfred. Saves the items in plaintext on
 your device.
 
-- [ ] Showcase image to be inserted here.
+<img alt="showcase" width=70% src="https://github.com/chrisgrieser/alfred-read-later/assets/73286100/b82dbf42-370d-4faa-aaad-b2f4291be331">
 
 ## Usage
 - Use the keyword `rl` to add the current tab of the frontmost browser to your
