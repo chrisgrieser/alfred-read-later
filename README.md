@@ -1,13 +1,36 @@
-# alfred read later
+# Read-Later for Alfred
 ![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-read-later/total?label=Total%20Downloads&style=plastic)
 ![version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-read-later?label=Latest%20Release&style=plastic)
 
-Simple standalone read-later-app for Alfred. Saves the items in plaintext on your device.
+Simple standalone read-later-app for Alfred. Saves the items in plaintext on
+your device.
 
 - [ ] Showcase image to be inserted here.
 
 ## Usage
-- {{Do this}} via the keyword `xxx`.
+- Use the keyword `rl` to add the current tab of the frontmost browser to your
+  read-later-list.
+- Any item in your reading list also shows up when using the keyword `rl`.
+  Press <kbd>⏎</kbd> to open the item in your browser and remove it from your
+  read-later-list.
+
+## Items are saved locally
+- The items are saved in a local markdown file on your disk. You can set
+  the location in the [workflow configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+- The items formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
+	+ Unread items as open tasks: `- [ ] [title](url)`
+	+ Read items as completed tasks: `- [x] [title](url)`
+- This has several advantages:
+	+ No dependency on any read-later service.
+	+ The reading list is available offline.
+	+ Since Markdown is a widely supported format, you can access your items in many
+	other apps as well, such as [Obsidian](https://obsidian.md/).
+	+ Easy backup: Just copypaste the file.
+	+ Easy sync: Just save the file in a Cloud Drive like iCloud.
+
+> [!TIP]
+> You can also access the list on mobile with any note-app that supports
+> markdown tasks, when you save it in a Cloud Drive.
 
 ## Installation
 [➡️ Download the latest release.](./releases/latest)

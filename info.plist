@@ -117,6 +117,55 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:read_later_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>loading...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/select-read-later.js</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D223A211-45A1-481D-A981-9632A2E18CC5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -169,58 +218,30 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>{var:read_later_keyword}</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>loading...</string>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/select-read-later.js</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>{const:alfred_workflow_name}</string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>D223A211-45A1-481D-A981-9632A2E18CC5</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string>Created by [Chris Grieser](https://chris-grieser.de/).</string>
+	<string>## Usage
+- Use the keyword `rl` to add the current tab of the frontmost browser to your read-later-list.
+- Any item in your reading list also shows up when using the keyword `rl`. Press &lt;kbd&gt;⏎&lt;/kbd&gt; to open the item in your browser and remove it from your read-later-list.
+
+## Items are saved locally
+- The items are saved in a local markdown file on your disk. You can set the location in the [workflow configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+- The items formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
+	+ Unread items as open tasks: `- [ ] [title](url)`
+	+ Read items as completed tasks: `- [x] [title](url)`
+- This has several advantages:
+	+ No dependency on any read-later service.
+	+ The reading list is available offline.
+	+ Since Markdown is a widely supported format, you can access your items in many other apps as well, such as [Obsidian](https://obsidian.md/).
+	+ Easy backup: Just copypaste the file.
+	+ Easy sync: Just save the file in a Cloud Drive like iCloud.
+
+
+You can also access the list on mobile with any note-app that supports markdown tasks, when you save it in a Cloud Drive.
+
+---
+
+Created by [Chris Grieser](https://chris-grieser.de/).</string>
 	<key>uidata</key>
 	<dict>
 		<key>108AF0CF-D70A-4010-BC05-9C5F5F11B47B</key>
@@ -270,7 +291,7 @@
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>265</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
