@@ -1,4 +1,4 @@
-# Read-Later for Alfred
+# Read-Later for Alfred 🔖
 ![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-read-later/total?label=Total%20Downloads&style=plastic)
 ![version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-read-later?label=Latest%20Release&style=plastic)
 
