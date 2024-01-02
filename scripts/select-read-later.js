@@ -22,8 +22,15 @@ function run() {
 		.filter((line) => line.startsWith("- [ ] "))
 		.map((line) => {
 			const valid = line.includes("](");
-			const title = valid ? line.split("](")[0].slice(7) : "Item invalid.";
-			const url = valid ? line.split("](")[1].slice(0, -1) : "Line does not have valid task syntax.";
+			if (!valid) {
+				return {
+					title: "Line does not have valid markdown task syntax:",
+					valid: false,
+					subtitle: line,
+				};
+			}
+			const title = line.split("](")[0].slice(7);
+			const url = line.split("](")[1].slice(0, -1);
 			return {
 				title: title,
 				subtitle: url,
