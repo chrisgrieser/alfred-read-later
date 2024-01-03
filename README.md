@@ -14,6 +14,9 @@ your device.
   Press <kbd>⏎</kbd> to open the item in your browser and remove it from your
   read-later-list.
 
+> [!NOTE]
+> [Unfortunately, Firefox is not and cannot be supported.](https://www.alfredforum.com/topic/16748-how-to-do-x-in-firefox-from-alfred/)
+
 ## Items are saved locally
 - The items are saved in a local markdown file on your disk. You can set
   the location in the [workflow configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
