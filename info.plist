@@ -226,7 +226,7 @@
 
 ## Items are saved locally
 - The items are saved in a local markdown file on your disk. You can set the location in the [workflow configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
-- The items formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
+- The items are formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
 	+ Unread items as open tasks: `- [ ] [title](url)`
 	+ Read items as completed tasks: `- [x] [title](url)`
 - This has several advantages:
