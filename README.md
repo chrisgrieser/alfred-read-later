@@ -27,13 +27,13 @@ your device.
 	+ No dependency on any read-later service.
 	+ The reading list is available offline.
 	+ Since Markdown is a widely supported format, you can access your items in
-	  many other apps as well, such as [Obsidian](https://obsidian.md/) (Interoperability).
+	  many other apps as well, such as [Obsidian](https://obsidian.md/). (Interoperability)
 	+ Easy backup: Just copypaste the file.
 	+ Easy sync: Just save the file in a cloud drive like iCloud.
 
 > [!TIP]
-> You can also access the list on mobile with any note-app that supports
-> markdown tasks, when you save it in a Cloud Drive.
+> By saving in a cloud drive, you can also access the reading list on mobile
+> with any editor app that supports Markdown tasks.
 
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-read-later/releases/latest)
