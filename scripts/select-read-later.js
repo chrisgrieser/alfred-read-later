@@ -23,14 +23,19 @@ function run() {
 		.split("\n")
 		.map((line) => {
 			lineNo++;
-			const validItem = line.startsWith("- [ ] ") && line.includes("](");
-			if (!validItem) return {};
 
-			const title = line.split("](")[0].slice(7);
-			const url = line.split("](")[1].slice(0, -1);
+			// GUARD
+			const unreadItem = line.startsWith("- [ ] ");
+			const validItem = line.includes("](");
+			if (!unreadItem || !validItem) return {};
+
+			const [_, title, url, date] = line.match(
+				/- \[ \] \[([^\]]*)\]\((.*?)\) ?(\p{Extended_Pictographic} .*)?/u,
+			);
+			const dateStr = date ? `${date}  ·  ` : "";
 			return {
 				title: title,
-				subtitle: url,
+				subtitle: dateStr + url,
 				arg: lineNo,
 			};
 		});

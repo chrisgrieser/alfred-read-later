@@ -33,7 +33,7 @@ function run(argv) {
 	writeToFile(readLaterFile, items.join("\n"));
 
 	// open URL
-	const url = selectedLine.split("](")[1].slice(0, -1);
+	const url = selectedLine.split("](")[1].split(")")[0];
 	app.openLocation(url);
 
 	return null;
