@@ -10,16 +10,21 @@ your device.
 ## Usage
 - Use the keyword `rl` to add the current tab of the frontmost browser to your
   read-later-list.
-- Any item in your reading list also shows up when using the keyword `rl`.
-  Press <kbd>⏎</kbd> to open the item in your browser and remove it from your
+- Any item in your reading list also shows up when using the keyword `rl`. Press
+  <kbd>⏎</kbd> to open the item in your browser and remove it from your
   read-later-list.
 
 > [!NOTE]
 > [Unfortunately, Firefox is not and cannot be supported.](https://www.alfredforum.com/topic/16748-how-to-do-x-in-firefox-from-alfred/)
 
+## Item Previews
+Install [AlfredExtraPane](https://github.com/mr-pennyworth/alfred-extra-pane)
+for previews of the items.
+
 ## Items are saved locally
-- The items are saved in a local markdown file on your disk. You can set
-  the location in the [workflow configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+- The items are saved in a local markdown file on your disk. You can set the
+  location in the [workflow
+  configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 - The items are formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
 	+ Unread items as open tasks: `- [ ] [title](url)`
 	+ Read items as completed tasks: `- [x] [title](url)`
@@ -27,13 +32,12 @@ your device.
 	+ No dependency on any read-later service.
 	+ The reading list is available offline.
 	+ Since Markdown is a widely supported format, you can access your items in
-	  many other apps as well, such as [Obsidian](https://obsidian.md/). (Interoperability)
+	  many other apps as well, such as [Obsidian](https://obsidian.md/).
+	  (Interoperability)
 	+ Easy backup: Just copypaste the file.
 	+ Easy sync: Just save the file in a cloud drive like iCloud.
-
-> [!TIP]
-> By saving in a cloud drive, you can also access the reading list on mobile
-> with any editor app that supports Markdown tasks.
+	+ By saving in a cloud drive, you can also access the reading list on mobile
+	  with any editor app that supports Markdown tasks.
 
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-read-later/releases/latest)
@@ -43,13 +47,11 @@ workflow-update mechanism.
 
 <!-- vale Google.FirstPerson = NO -->
 ## Credits
-__About Me__  
 In my day job, I am a sociologist studying the social mechanisms underlying the
 digital economy. For my PhD project, I investigate the governance of the app
 economy and how software ecosystems manage the tension between innovation and
 compatibility. If you are interested in this subject, feel free to get in touch.
 
-__Profiles__  
 - [reddit](https://www.reddit.com/user/pseudometapseudo)
 - [Discord](https://discordapp.com/users/462774483044794368/)
 - [Academic Website](https://chris-grieser.de/)
