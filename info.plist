@@ -498,11 +498,11 @@ Created by [Chris Grieser](https://chris-grieser.de/).</string>
 				<key>pairs</key>
 				<array>
 					<array>
-						<string>no</string>
+						<string>none</string>
 						<string>none</string>
 					</array>
 					<array>
-						<string>yes</string>
+						<string>ISO 8601</string>
 						<string>iso8601</string>
 					</array>
 				</array>
