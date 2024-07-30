@@ -1,6 +1,6 @@
 # Read-Later for Alfred 🔖
 ![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-read-later/total?label=Total%20Downloads&style=plastic)
-![version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-read-later?label=Latest%20Release&style=plastic)
+![Last release](https://img.shields.io/github/v/release/chrisgrieser/alfred-read-later?label=Latest%20Release&style=plastic)
 
 Simple standalone read-later-app for Alfred. Saves the items in plaintext on
 your device.
@@ -42,8 +42,7 @@ for previews of the items.
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-read-later/releases/latest)
 
-When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's
-workflow-update mechanism.
+The workflow auto-updates via Alfred's workflow-update mechanism.
 
 <!-- vale Google.FirstPerson = NO -->
 ## Credits
@@ -52,10 +51,7 @@ digital economy. For my PhD project, I investigate the governance of the app
 economy and how software ecosystems manage the tension between innovation and
 compatibility. If you are interested in this subject, feel free to get in touch.
 
-- [reddit](https://www.reddit.com/user/pseudometapseudo)
-- [Discord](https://discordapp.com/users/462774483044794368/)
 - [Academic Website](https://chris-grieser.de/)
-- [Twitter](https://twitter.com/pseudo_meta)
 - [Mastodon](https://pkm.social/@pseudometa)
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
