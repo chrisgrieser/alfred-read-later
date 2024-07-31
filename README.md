@@ -12,7 +12,7 @@ your device.
   read-later-list.
 - Any item in your reading list also shows up when using the keyword `rl`.
 	+ <kbd>⏎</kbd>: Open the item in your browser and mark it as read.
-	+ <kbd>⏎</kbd><kbd>⌘</kbd>: Mark the item as read.
+	+ <kbd>⌘</kbd><kbd>⏎</kbd>: Mark the item as read.
 
 > [!NOTE]
 > [Unfortunately, Firefox is not and cannot be supported.](https://www.alfredforum.com/topic/16748-how-to-do-x-in-firefox-from-alfred/)
