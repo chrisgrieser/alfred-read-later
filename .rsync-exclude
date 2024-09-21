@@ -1,8 +1,8 @@
 .rsync-exclude
+.editorconfig
 .gitignore
 .git/
 .github/
-.editorconfig
 docs/
 assets/
 prefs.plist
@@ -10,6 +10,7 @@ README.md
 LICENSE
 Justfile
 .build-and-release.sh
+.markdownlint.yaml
 
 # symlinks
 jxa-globals.d.ts
