@@ -1,6 +1,7 @@
 # Read-Later for Alfred 🔖
-![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-read-later/total?label=Total%20Downloads&style=plastic)
-![Last release](https://img.shields.io/github/v/release/chrisgrieser/alfred-read-later?label=Latest%20Release&style=plastic)
+![GitHub Downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-read-later/total?label=GitHub%20Downloads&style=plastic&logo=github)
+![Alfred Gallery Downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&query=alfred-read-later&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87)
+![Latest Release](https://img.shields.io/github/v/release/chrisgrieser/alfred-read-later?label=Latest%20Release&style=plastic)
 
 Simple standalone read-later-app for Alfred. Saves the items in plaintext on
 your device.
