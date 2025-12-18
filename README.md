@@ -9,12 +9,12 @@ your device.
 <img alt="showcase" width=70% src="https://github.com/chrisgrieser/alfred-read-later/assets/73286100/b82dbf42-370d-4faa-aaad-b2f4291be331">
 
 ## Usage
-- Use the keyword `rl` to add the current tab of the frontmost browser to your
++ Use the keyword `rl` to add the current tab of the frontmost browser to your
   read-later-list.
-- Any item in your reading list also shows up when using the keyword `rl`.
-	+ <kbd>⏎</kbd>: Open the item in your browser and mark it as read.
-	+ <kbd>⌘</kbd><kbd>⏎</kbd>: Mark the item as read.
-	+ <kbd>⌥</kbd><kbd>⏎</kbd>: Open and keep unread.
++ Any item in your reading list also shows up when using the keyword `rl`.
+    + <kbd>⏎</kbd>: Open the item in your browser and mark it as read.
+    + <kbd>⌘</kbd><kbd>⏎</kbd>: Mark the item as read.
+    + <kbd>⌥</kbd><kbd>⏎</kbd>: Open and keep unread.
 
 > [!NOTE]
 > [Unfortunately, Firefox is not and cannot be supported.](https://www.alfredforum.com/topic/16748-how-to-do-x-in-firefox-from-alfred/)
@@ -24,22 +24,22 @@ Install [AlfredExtraPane](https://github.com/mr-pennyworth/alfred-extra-pane)
 for previews of the items.
 
 ## Items are saved locally
-- The items are saved in a local markdown file on your disk. You can set the
++ The items are saved in a local markdown file on your disk. You can set the
   location in the [workflow
   configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
-- The items are formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
-	+ Unread items as open tasks: `- [ ] [title](url)`
-	+ Read items as completed tasks: `- [x] [title](url)`
-- This has several advantages:
-	+ No dependency on any read-later service.
-	+ The reading list is available offline.
-	+ Since Markdown is a widely supported format, you can access your items in
-	  many other apps as well, such as [Obsidian](https://obsidian.md/).
-	  (Interoperability)
-	+ Easy backup: Just copypaste the file.
-	+ Easy sync: Just save the file in a cloud drive like iCloud.
-	+ By saving in a cloud drive, you can also access the reading list on mobile
-	  with any editor app that supports Markdown tasks.
++ The items are formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
+    + Unread items as open tasks: `- [ ] [title](url)`
+    + Read items as completed tasks: `- [x] [title](url)`
++ This has several advantages:
+    + No dependency on any read-later service.
+    + The reading list is available offline.
+    + Since Markdown is a widely supported format, you can access your items in
+      many other apps as well, such as [Obsidian](https://obsidian.md/).
+      (Interoperability)
+    + Easy backup: Just copypaste the file.
+    + Easy sync: Just save the file in a cloud drive like iCloud.
+    + By saving in a cloud drive, you can also access the reading list on mobile
+      with any editor app that supports Markdown tasks.
 
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-read-later/releases/latest)
@@ -52,10 +52,10 @@ digital economy. For my PhD project, I investigate the governance of the app
 economy and how software ecosystems manage the tension between innovation and
 compatibility. If you are interested in this subject, feel free to get in touch.
 
-- [Academic Website](https://chris-grieser.de/)
-- [Mastodon](https://pkm.social/@pseudometa)
-- [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
-- [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
++ [Academic Website](https://chris-grieser.de/)
++ [Mastodon](https://pkm.social/@pseudometa)
++ [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
++ [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
 
 <a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'> <img height='36'
 style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
