@@ -19,7 +19,7 @@ your device.
 > [!NOTE]
 > [Unfortunately, Firefox is not and cannot be supported.](https://www.alfredforum.com/topic/16748-how-to-do-x-in-firefox-from-alfred/)
 
-## Item Previews
+## Item previews
 Install [AlfredExtraPane](https://github.com/mr-pennyworth/alfred-extra-pane)
 for previews of the items.
 
