@@ -9,7 +9,7 @@ your device.
 <img alt="showcase" width=70% src="https://github.com/chrisgrieser/alfred-read-later/assets/73286100/b82dbf42-370d-4faa-aaad-b2f4291be331">
 
 ## Usage
-- Use the keyword `rl` to add the current tab of the frontmost browser to your
+- Use the keyword `rl` to add the current tab of the front-most browser to your
   read-later-list.
 - Any item in your reading list also shows up when using the keyword `rl`.
     - <kbd>⏎</kbd>: Open the item in your browser and mark it as read.
@@ -24,7 +24,7 @@ Install [AlfredExtraPane](https://github.com/mr-pennyworth/alfred-extra-pane)
 for previews of the items.
 
 ## Items are saved locally
-- The items are saved in a local markdown file on your disk. You can set the
+- The items are saved in a local Markdown file on your disk. You can set the
   location in the [workflow
   configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 - The items are formatted in the [markdown task syntax](https://simpledev.io/lesson/task-list-md-1/).
